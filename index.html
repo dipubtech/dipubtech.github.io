@@ -3,330 +3,310 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepak Mahto - Portfolio</title>
+    <title>Deepak Kumar | Aspiring Data Analyst & CSE Student</title>
+    <meta name="description" content="B.Tech Computer Science student and aspiring Data Analyst skilled in Python, SQL, Excel, Power BI, C++, and Data Structures & Algorithms.">
+    <meta name="theme-color" content="#0a192f">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Deepak Kumar | Aspiring Data Analyst & CSE Student">
+    <meta property="og:description" content="B.Tech Computer Science student and aspiring Data Analyst skilled in Python, SQL, Excel, Power BI, C++, and Data Structures & Algorithms.">
+    <meta property="og:url" content="https://itsdeepak.me/">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Cursor Effect -->
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-    <!-- Navigation -->
-    <nav class="navbar">
+    <div class="cursor" aria-hidden="true"></div>
+    <div class="cursor-follower" aria-hidden="true"></div>
+
+    <nav class="navbar" aria-label="Main navigation">
         <div class="nav-container">
-            <div class="logo">
+            <a href="#home" class="logo" aria-label="Deepak Kumar home">
                 <span class="logo-bracket">&lt;</span>
-                DM
+                DK
                 <span class="logo-bracket">/&gt;</span>
-            </div>
-            <div class="nav-toggle" id="navToggle">
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu" type="button">
                 <span></span>
                 <span></span>
                 <span></span>
-            </div>
+            </button>
             <ul class="nav-menu" id="navMenu">
                 <li><a href="#home" class="nav-link">Home</a></li>
                 <li><a href="#about" class="nav-link">About</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
                 <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-particles"></div>
-        <div class="hero-container">
-            <div class="hero-text">
-                <p class="hero-greeting">Hello, I'm</p>
-                <h1 class="hero-name">Deepak Mahto</h1>
-                <div class="hero-title">
-                    <span class="typing-text"></span>
-                    <span class="cursor-blink">|</span>
-                </div>
-                <p class="hero-description">B.Tech 2nd Year Student at JBIT Dehradun | Passionate About Technology</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">
-                        <i class="fas fa-envelope"></i> Hire Me
-                    </a>
-                    <a href="#projects" class="btn btn-secondary">
-                        <i class="fas fa-briefcase"></i> View Work
-                    </a>
-                </div>
-                <div class="social-links">
-
-    <!-- GitHub Link -->
-    <a href="https://github.com/dipubtech" class="social-icon" target="_blank">
-        <i class="fab fa-github"></i>
-    </a>
-
-    <!-- LinkedIn (Empty for now – if you give username, I'll update) -->
-    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
-
-    <!-- Twitter (Update if needed) -->
-    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-
-    <!-- Instagram Link -->
-    <a href="https://instagram.com/deepakray789" class="social-icon" target="_blank">
-        <i class="fab fa-instagram"></i>
-    </a>
-
-</div>
-                
-                </div>
-                <div class="social-links">
-
-    
-
-</div>
-            </div>
-            <div class="hero-image">
-                <div class="image-container">
-                    <div class="image-border"></div>
-                    <div class="profile-pic">
-                        <i class="fas fa-user"></i>
+    <main id="main-content">
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="hero-particles" aria-hidden="true"></div>
+            <div class="hero-container">
+                <div class="hero-text">
+                    <p class="hero-greeting">Hi, I'm Deepak Kumar</p>
+                    <h1 id="hero-heading" class="hero-name">Aspiring Data Analyst &amp; CSE Student</h1>
+                    <p class="hero-description">I am a B.Tech Computer Science student passionate about Data Analytics, Python, SQL, Excel, and Power BI. I enjoy solving problems, learning new technologies, and building practical projects.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-briefcase" aria-hidden="true"></i> View Projects
+                        </a>
+                        <button type="button" class="btn btn-secondary btn-disabled" aria-disabled="true" title="Add assets/resume.pdf to enable resume download">
+                            <i class="fas fa-file-arrow-down" aria-hidden="true"></i> Download Resume
+                        </button>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fas fa-envelope" aria-hidden="true"></i> Contact Me
+                        </a>
+                    </div>
+                    <div class="social-links" aria-label="Social links">
+                        <a href="https://github.com/dipubtech" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                            <i class="fab fa-github" aria-hidden="true"></i>
+                        </a>
+                        <span class="social-icon social-icon-muted" aria-label="LinkedIn profile to be added">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        </span>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-number">01.</span>
-                <h2 class="section-title">About Me</h2>
-                <div class="title-line"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Hello! I'm Deepak Mahto, a dedicated B.Tech student currently in my second year at <strong>JB Institute of Technology, Dehradun</strong>.</p>
-                    <p>My journey in technology began with curiosity and has evolved into a passion for creating innovative solutions. I'm constantly learning and exploring new technologies to stay ahead in this ever-evolving field.</p>
-                    <p>I believe in the power of technology to transform lives and I'm committed to making a positive impact through my work.</p>
-                    <div class="about-stats">
-                        <div class="stat-box">
-                            <h3>2+</h3>
-                            <p>Years of Study</p>
-                        </div>
-                        <div class="stat-box">
-                            <h3>10+</h3>
-                            <p>Projects</p>
-                        </div>
-                        <div class="stat-box">
-                            <h3>5+</h3>
-                            <p>Technologies</p>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <div class="image-border" aria-hidden="true"></div>
+                        <div class="profile-pic">
+                            <img src="assets/profile.jpg" alt="Deepak Kumar profile photo" class="profile-photo" id="profilePhoto">
+                            <div class="profile-placeholder" id="profilePlaceholder" aria-hidden="true">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <div class="scroll-indicator" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
 
-    <!-- Education Section -->
-    <section id="education" class="education">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-number">02.</span>
-                <h2 class="section-title">Education</h2>
-                <div class="title-line"></div>
-            </div>
-            <div class="education-timeline">
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <span class="timeline-date">2023 - Present</span>
-                        <h3>Bachelor of Technology (B.Tech)</h3>
-                        <h4>JB Institute of Technology, Dehradun</h4>
-                        <p>Currently pursuing my degree in Computer Science & Engineering, focusing on software development and emerging technologies.</p>
-                        <div class="timeline-tags">
-                            <span class="tag">Currently in 2nd Year</span>
-                        </div>
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-number">01.</span>
+                    <h2 class="section-title" id="about-title">About Me</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm Deepak Kumar, a B.Tech Computer Science student with a strong interest in Data Analytics and software development. I am building practical skills in Python, SQL, Excel, Power BI, C++, and Data Structures &amp; Algorithms.</p>
+                        <p>I enjoy learning through hands-on projects and solving real-world problems using technology. My current career goal is to grow as a Data Analyst while continuing to strengthen my programming and problem-solving skills.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="skills">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-number">03.</span>
-                <h2 class="section-title">Skills & Technologies</h2>
-                <div class="title-line"></div>
-            </div>
-            <div class="skills-categories">
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3>Programming</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">C++</span>
-                        <span class="skill-tag">JavaScript</span>
-                    </div>
+        <section id="education" class="education" aria-labelledby="education-title">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-number">02.</span>
+                    <h2 class="section-title" id="education-title">Education</h2>
+                    <div class="title-line"></div>
                 </div>
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <h3>Web Development</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">HTML5</span>
-                        <span class="skill-tag">CSS3</span>
-                        <span class="skill-tag">JavaScript</span>
-                        <span class="skill-tag">React</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-database"></i>
-                    </div>
-                    <h3>Database</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">MongoDB</span>
-                        <span class="skill-tag">PostgreSQL</span>
-                    </div>
-                </div>
-                <div class="skill-category">
-                    <div class="category-icon">
-                        <i class="fas fa-tools"></i>
-                    </div>
-                    <h3>Tools & Others</h3>
-                    <div class="skills-list">
-                        <span class="skill-tag">Git</span>
-                        <span class="skill-tag">VS Code</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Linux</span>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2023 - Present</span>
+                            <h3>B.Tech in Computer Science &amp; Engineering</h3>
+                            <h4>JB Institute of Technology, Dehradun</h4>
+                            <p>Focused on computer science fundamentals, programming, and data-focused problem solving.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="projects">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-number">04.</span>
-                <h2 class="section-title">Projects</h2>
-                <div class="title-line"></div>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>Project Name</h3>
-                        <p>A brief description of your project and what technologies were used to build it.</p>
-                        <div class="project-tech">
-                            <span>React</span>
-                            <span>Node.js</span>
-                            <span>MongoDB</span>
-                        </div>
-                    </div>
-                    <div class="project-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
+        <section id="skills" class="skills" aria-labelledby="skills-title">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-number">03.</span>
+                    <h2 class="section-title" id="skills-title">Skills</h2>
+                    <div class="title-line"></div>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>Project Name</h3>
-                        <p>A brief description of your project and what technologies were used to build it.</p>
-                        <div class="project-tech">
-                            <span>Python</span>
-                            <span>Flask</span>
-                            <span>MySQL</span>
+                <div class="skills-categories">
+                    <article class="skill-category">
+                        <div class="category-icon"><i class="fas fa-code" aria-hidden="true"></i></div>
+                        <h3>Programming</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">JavaScript</span>
                         </div>
-                    </div>
-                    <div class="project-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <i class="fas fa-folder-open"></i>
-                    </div>
-                    <div class="project-info">
-                        <h3>Project Name</h3>
-                        <p>A brief description of your project and what technologies were used to build it.</p>
-                        <div class="project-tech">
-                            <span>JavaScript</span>
-                            <span>HTML/CSS</span>
+                    </article>
+                    <article class="skill-category">
+                        <div class="category-icon"><i class="fas fa-chart-line" aria-hidden="true"></i></div>
+                        <h3>Data Analytics</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">Python</span>
                         </div>
-                    </div>
-                    <div class="project-links">
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
-                    </div>
+                    </article>
+                    <article class="skill-category">
+                        <div class="category-icon"><i class="fas fa-brain" aria-hidden="true"></i></div>
+                        <h3>Computer Science</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Data Structures &amp; Algorithms</span>
+                            <span class="skill-tag">Object-Oriented Programming</span>
+                            <span class="skill-tag">DBMS</span>
+                        </div>
+                    </article>
+                    <article class="skill-category">
+                        <div class="category-icon"><i class="fas fa-screwdriver-wrench" aria-hidden="true"></i></div>
+                        <h3>Tools</h3>
+                        <div class="skills-list">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">VS Code</span>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="section-container">
-            <div class="section-header">
-                <span class="section-number">05.</span>
-                <h2 class="section-title">Get In Touch</h2>
-                <div class="title-line"></div>
+        <section id="projects" class="projects" aria-labelledby="projects-title">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-number">04.</span>
+                    <h2 class="section-title" id="projects-title">Projects</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-image"><i class="fas fa-notes-medical" aria-hidden="true"></i></div>
+                        <div class="project-info">
+                            <h3>CognitiveCare NER</h3>
+                            <p>An SIH 2026 project focused on cognitive support and engagement for elderly users, caregivers, families, and communities in the North Eastern Region.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>FastAPI</span>
+                                <span>SQLite</span>
+                                <span>Python</span>
+                                <span>Ollama (Optional)</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-link disabled" aria-disabled="true">GitHub</span>
+                            <span class="project-link disabled" aria-disabled="true">Live Demo</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><i class="fas fa-file-lines" aria-hidden="true"></i></div>
+                        <div class="project-info">
+                            <h3>AI Resume &amp; Portfolio Builder</h3>
+                            <p>A web-based project for creating professional resume and portfolio content.</p>
+                            <div class="project-tech">
+                                <span>Web</span>
+                                <span>AI-Assisted Content</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <span class="project-link disabled" aria-disabled="true">GitHub</span>
+                            <span class="project-link disabled" aria-disabled="true">Live Demo</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-image"><i class="fas fa-laptop-code" aria-hidden="true"></i></div>
+                        <div class="project-info">
+                            <h3>C++ Programming Practice</h3>
+                            <p>A collection of C++ programs covering functions, recursion, constructors, destructors, inheritance, templates, exception handling, and OOP concepts.</p>
+                            <div class="project-tech">
+                                <span>C++</span>
+                                <span>OOP</span>
+                                <span>DSA</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/dipubtech/cpp-programs" target="_blank" rel="noopener noreferrer" class="project-link">GitHub</a>
+                            <span class="project-link disabled" aria-disabled="true">Live Demo</span>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="contact-content">
-                <p class="contact-description">I'm currently looking for new opportunities and collaborations. Whether you have a question or just want to say hi, feel free to reach out!</p>
-                <div class="contact-methods">
-                    <a href="mailto: mahtodeepak37410@gmail.com" class="contact-box">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
+        </section>
+
+        <section id="experience" class="experience" aria-labelledby="experience-title">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-number">05.</span>
+                    <h2 class="section-title" id="experience-title">Experience</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="education-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot" aria-hidden="true"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Internship details to be updated</span>
+                            <h3>Internship Role</h3>
+                            <h4>Company Name</h4>
+                            <p>Add your verified internship details here: organization, duration, role, and key responsibilities.</p>
                         </div>
-                        <h3>Email</h3>
-                        <p>mahtodeepak37410@gmail.com</p>
-                    </a>
-                    <a href="tel:+917258004699" class="contact-box">
-                        <div class="contact-icon">
-                            <i class="fas fa-phone"></i>
-                        </div>
-                        <h3>Phone</h3>
-                        <p>+91 7258004699</p>
-                    </a>
-                    <div class="contact-box">
-                        <div class="contact-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <h3>Location</h3>
-                        <p>Dehradun, India</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Footer -->
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-number">06.</span>
+                    <h2 class="section-title" id="contact-title">Contact</h2>
+                    <div class="title-line"></div>
+                </div>
+                <div class="contact-content">
+                    <p class="contact-description">I'm open to collaboration, internships, and opportunities in Data Analytics and software development. Feel free to connect.</p>
+                    <div class="contact-methods">
+                        <a href="mailto:mahtodeepak37410@gmail.com" class="contact-box">
+                            <div class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                            <h3>Email</h3>
+                            <p>mahtodeepak37410@gmail.com</p>
+                        </a>
+                        <a href="https://github.com/dipubtech" class="contact-box" target="_blank" rel="noopener noreferrer">
+                            <div class="contact-icon"><i class="fab fa-github" aria-hidden="true"></i></div>
+                            <h3>GitHub</h3>
+                            <p>github.com/dipubtech</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/deepak-kumar-474b4638a"
+   class="contact-box"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="LinkedIn profile">
+    <div class="contact-icon">
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <h3>LinkedIn</h3>
+    <p>Connect with me on LinkedIn</p>
+</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
     <footer class="footer">
         <div class="footer-content">
-            <p>Designed & Built by Deepak Mahto</p>
-            <p>&copy; 2024 All rights reserved.</p>
+            <p>Designed & Built by Deepak Kumar</p>
+            <p>&copy; 2026 All rights reserved.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>
